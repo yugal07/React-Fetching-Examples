@@ -1,12 +1,11 @@
-const debounce = (func , delay) => {
+const debounce = (func , timer) => {
     let timeoutId;
-    return function(...args) {
+    return function(...args){
         clearTimeout(timeoutId);
         timeoutId = setTimeout(() => {
             func.apply(this , args)
-        } , delay)
+        } , timer)
     }
 }
 
-
-export default debounce
+export default debounce;
