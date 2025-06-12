@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mumbai Indians",
+    "homeGround": "Wankhede Stadium",
+    "championships": 5,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/2/25/Mumbai_Indians_Logo.svg"
+  },
+  {
+    "name": "Chennai Super Kings",
+    "homeGround": "M. A. Chidambaram Stadium",
+    "championships": 5,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/3/3d/Chennai_Super_Kings_Logo.svg"
+  },
+  {
+    "name": "Royal Challengers Bangalore",
+    "homeGround": "M. Chinnaswamy Stadium",
+    "championships": 0,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/Royal_Challengers_Bangalore_2020.svg"
+  },
+  {
+    "name": "Kolkata Knight Riders",
+    "homeGround": "Eden Gardens",
+    "championships": 2,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg"
+  },
+  {
+    "name": "Delhi Capitals",
+    "homeGround": "Arun Jaitley Stadium",
+    "championships": 0,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/f/f5/Delhi_Capitals_Logo.svg"
+  },
+  {
+    "name": "Punjab Kings",
+    "homeGround": "PCA Stadium",
+    "championships": 0,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/6/6f/Punjab_Kings_Logo.svg"
+  },
+  {
+    "name": "Rajasthan Royals",
+    "homeGround": "Sawai Mansingh Stadium",
+    "championships": 1,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/6/60/Rajasthan_Royals_Logo.svg"
+  },
+  {
+    "name": "Sunrisers Hyderabad",
+    "homeGround": "Rajiv Gandhi International Stadium",
+    "championships": 1,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/8/81/Sunrisers_Hyderabad.svg"
+  },
+  {
+    "name": "Gujarat Titans",
+    "homeGround": "Narendra Modi Stadium",
+    "championships": 1,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/1/1c/Gujarat_Titans_Logo.svg"
+  },
+  {
+    "name": "Lucknow Super Giants",
+    "homeGround": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "championships": 0,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/4/4c/Lucknow_Super_Giants_Logo.svg"
+  }
+]
