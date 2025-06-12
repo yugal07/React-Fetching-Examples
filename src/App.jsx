@@ -7,6 +7,7 @@ import IPLViewer from './components/IPLViewer'
 import NASAAstronomyExplorer from './components/NASAAstronomyExplorer'
 import DailyBhajanFinder from './components/DailyBhajanFinder'
 import RandomIndianFacts from './components/RandomIndianFacts'
+import MovieList from './components/MovieList'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     // <IPLViewer />
     // <NASAAstronomyExplorer />
     // <DailyBhajanFinder />
-    <RandomIndianFacts />
+    // <RandomIndianFacts />
+    <MovieList />
   )
 }
 
