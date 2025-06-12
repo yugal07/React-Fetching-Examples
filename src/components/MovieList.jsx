@@ -33,7 +33,7 @@ const MovieList = () => {
     useEffect(() => {
         const savedFavourites = localStorage.getItem("favouriteMovies");
         if(savedFavourites) {
-            setFavourites(savedFavourites);
+            setFavourites(JSON.parse(savedFavourites));
         }
     } , [])
     
@@ -71,7 +71,7 @@ const MovieList = () => {
     }
     
     const getDisplayMovies = () => {
-        if(currentView == "favourites") {
+        if(view == "favourites") {
             return movies.filter((movie) => favourites.includes(movie.id))
         }
         return movies;
@@ -90,14 +90,14 @@ const MovieList = () => {
                 </div>
             </nav>
             <div>
-                <h1>{currentView == "all" ? "All Movies" : "Favourite Movies"}</h1>
+                <h1>{view == "all" ? "All Movies" : "Favourite Movies"}</h1>
                 {getDisplayMovies().length === 0 ? (
                     <div>No Movies to Display</div>
                 ) : (
-                    <div>
+                    <div style={{display: "flex"}}>
                         {getDisplayMovies().map((movie) => (
                             <div key={movie.id}>
-                                <h3>{movie.name}</h3>
+                                <h3>{movie.title}</h3>
                                 <p>Year: {movie.year}</p>
                                 <button onClick={() => toggleFavourite(movie.id)}>
                                     {isFavourite(movie.id) ? "Remove from favourites" : "Add to favourites"}
