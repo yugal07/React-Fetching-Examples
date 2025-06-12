@@ -8,6 +8,7 @@ import NASAAstronomyExplorer from './components/NASAAstronomyExplorer'
 import DailyBhajanFinder from './components/DailyBhajanFinder'
 import RandomIndianFacts from './components/RandomIndianFacts'
 import MovieList from './components/MovieList'
+import Parent from './test/ChildToParent'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     // <NASAAstronomyExplorer />
     // <DailyBhajanFinder />
     // <RandomIndianFacts />
-    <MovieList />
+    // <MovieList />
+    <Parent />
   )
 }
 
