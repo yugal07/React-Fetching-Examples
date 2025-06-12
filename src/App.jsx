@@ -5,12 +5,14 @@ import './App.css'
 import CountryExplorer from './components/CountryExplorer'
 import IPLViewer from './components/IPLViewer'
 import NASAAstronomyExplorer from './components/NASAAstronomyExplorer'
+import DailyBhajanFinder from './components/DailyBhajanFinder'
 
 function App() {
   return (
     // <CountryExplorer /> // Un comment to See country data
     // <IPLViewer />
-    <NASAAstronomyExplorer />
+    // <NASAAstronomyExplorer />
+    <DailyBhajanFinder />
   )
 }
 
