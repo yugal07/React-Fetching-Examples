@@ -1,0 +1,12 @@
+[
+  { "fact": "India is the world's largest democracy.", "category": "General" },
+  { "fact": "The number zero was invented in India by Aryabhata.", "category": "History" },
+  { "fact": "India has the second-largest population in the world.", "category": "Demographics" },
+  { "fact": "The Kumbh Mela is so large it is visible from space.", "category": "Culture" },
+  { "fact": "India is home to the wettest place on Earth, Mawsynram.", "category": "Geography" },
+  { "fact": "The game of snakes and ladders was invented in India.", "category": "History" },
+  { "fact": "India has more mosques than any other country.", "category": "Religion" },
+  { "fact": "India has a floating post office on Dal Lake, Srinagar.", "category": "Unique" },
+  { "fact": "The Indian Railways is one of the world’s largest employers.", "category": "Infrastructure" },
+  { "fact": "Yoga originated in ancient India over 5,000 years ago.", "category": "Culture" }
+]
