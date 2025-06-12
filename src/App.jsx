@@ -4,11 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CountryExplorer from './components/CountryExplorer'
 import IPLViewer from './components/IPLViewer'
+import NASAAstronomyExplorer from './components/NASAAstronomyExplorer'
 
 function App() {
   return (
     // <CountryExplorer /> // Un comment to See country data
-    <IPLViewer />
+    // <IPLViewer />
+    <NASAAstronomyExplorer />
   )
 }
 
